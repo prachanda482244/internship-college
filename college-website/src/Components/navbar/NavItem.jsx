@@ -12,7 +12,7 @@ const NavItem = ({ item }) => {
     }
     return (
         <li
-            className="px-10 py-2 text-2xl text-blue-800 w-80 tracking-wider  "
+            className="px-10 py-2 text-2xl text-blue-800 w-80 hover:text-red-500 cursor-pointer tracking-wider  "
             onMouseEnter={() => handleMouseEnter()}
             onMouseLeave={handleMouseLeave}
         >
